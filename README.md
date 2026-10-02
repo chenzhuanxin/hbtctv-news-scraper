@@ -12,11 +12,11 @@
 |---|---|---|
 | `fetch_all_articles.py` | **全量抓取脚本**：从站点最新 ID 一直扫到最早有效 ID，收录全站历史新闻 | ~44 KB |
 | `fetch_articles_by_date.py` | **按截止日期抓取脚本**：输入向前截止日期，抓取「当前日期 → 截止日期」时间段内发布的新闻 | ~48 KB |
-| `news_all.xlsx` | 全量数据示例（87,060 条，2020 ~ 2026-10） | ~98 MB |
-| `news_since_2026-05-01.xlsx` | 按日期抓取示例（4,707 条，2026-05-01 ~ 2026-10-02） | ~3.3 MB |
+| `data/news_since_2026-05-01.xlsx` | 按日期抓取数据示例（4,707 条，2026-05-01 ~ 2026-10-02） | ~3.3 MB |
+| [`news_all.xlsx`（Release 附件）](https://github.com/chenzhuanxin/hbtctv-news-scraper/releases/tag/v1.0) | 全量数据示例（87,060 条，2020 ~ 2026-10） | ~98 MB |
 
-> Excel 体积较大，克隆时可考虑只取 `.py` 文件：
-> `git clone --depth 1 --filter=blob:limit=5m <仓库地址>`
+> 全量 Excel 约 98 MB，超出 Git API 上传上限，放在 **Release 附件** 中提供：
+> [点此下载 v1.0 附件](https://github.com/chenzhuanxin/hbtctv-news-scraper/releases/tag/v1.0)。
 
 ## 六种内容类型与内容提取方式
 
