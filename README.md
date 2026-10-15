@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/logo.png" width="120" alt="hbtctv-news-scraper"></p>
+
 # 云上通城（hbtctctv.cn）新闻全类型抓取工具
 
 针对湖北通城县融媒体中心「云上通城」网站 `https://www.hbtctv.cn/` 的新闻抓取脚本，
